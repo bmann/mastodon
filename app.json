@@ -91,6 +91,10 @@
     "SMTP_ENABLE_STARTTLS_AUTO": {
       "description": "Enable STARTTLS if SMTP server supports it? Default is true.",
       "required": false
+    },
+    "STREAMING_API_BASE_URL": {
+      "description": "Not required for initial install, but you'll need to setup a second Heroku instance and then come back and fill this out.",
+      "required": false
     }
   },
   "buildpacks": [
